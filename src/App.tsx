@@ -6,7 +6,7 @@ import { GLTF } from "three/examples/jsm/loaders/GLTFLoader";
 
 function Sphere() {
   return (
-    <mesh visible position={[2, 0.5, 0]} rotation={[0, 0, 0]} scale={[0.25, 0.25, 0.25]} castShadow>
+    <mesh visible position={[-2, 0.5, 0]} rotation={[0, 0, 0]} scale={[0.25, 0.25, 0.25]} castShadow>
       <sphereGeometry attach="geometry" args={[2, 32, 32]}/>
       <meshPhysicalMaterial   attach="material"  color="white"  metalness={0.98}  roughness={0.0}
       /> </mesh>  
